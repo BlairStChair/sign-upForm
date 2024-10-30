@@ -34,9 +34,13 @@ body{
     font-family: 'Roboto';
 }
 
+ul{
+    list-style: none;
+}
+
 .container{
+    min-height: 95.3vh;
     flex-wrap: wrap;
-    min-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,10 +61,46 @@ h2{
 
 .content{
     font-size: 20px;
-    padding: 1.5vw 25px;
+    padding: 1vw 25px;
     min-width: 200px;
     width: 50vw;
     background-color: #0e0b00dc;
-    border-radius: 15px;
 }
+
+button{
+   background-color: #ffbd59; 
+   border-color: #0e0b00;
+   border-width: 5px;
+   font-family: 'Roboto';
+   padding: 18px;
+   font-size: 30px;
+}
+
+button:hover{
+    background-color: #ffaf38;
+}
+
+button:focus{
+    background-color: #ff9900;
+}
+
+.footer a, .footer p{
+    text-align: center;
+    background-color: #0e0b00;
+    color: #faf9f0;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+a:hover{
+    color: #ff9900;
+}
+
+a:focus{
+    color: #bb7101;
+}
+
 
