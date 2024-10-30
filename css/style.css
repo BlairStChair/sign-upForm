@@ -20,18 +20,47 @@
     src: url("../fonts/roboto/Roboto-Bold.otf") format("opentype");
 }
 
-*{
+html, body{
     width: 100%;
+    height: 100%;
     margin: 0;
 }
+
 body{
+    min-height: 100%;
     background-image: url("../img/background1.jpg");
     background-size: cover;
     color: #faf9f0;
     font-family: 'Roboto';
 }
 
-h1{
+.container{
+    flex-wrap: wrap;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+img{
+    width: 180px;
+}
+
+h2{
     font-family: 'LibreBaskerville' !important;
+    font-size: 34px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.content{
+    font-size: 20px;
+    padding: 1.5vw 25px;
+    min-width: 200px;
+    width: 50vw;
+    background-color: #0e0b00dc;
+    border-radius: 15px;
 }
 
