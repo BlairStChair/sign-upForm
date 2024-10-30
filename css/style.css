@@ -20,6 +20,11 @@
     src: url("../fonts/roboto/Roboto-Bold.otf") format("opentype");
 }
 
+.fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+  }
+  
+
 * {
     margin: 0;
     padding: 0;
