@@ -53,20 +53,43 @@ body{
     font-size: 20px;
     justify-content: space-between;
     padding: 15px 40px;
+    align-items: center;
 }
 
 ul{
-    flex: 3;
+    flex: 19;
     display: flex;
+    justify-content: space-evenly;
     list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    color:#faf9f0;
+}
+
+ul a:hover{
+    color:#ebe8de;
+}
+
+#outlet{
+    color: #ff0000;
+}
+
+.searchBar{
+    width: 13vw;
+    font-size: 18px;
+    text-align: center;
 }
 
 .userIcon{
     flex: 1;
+    font-size: 30px;
+    text-align: right;
 }
 
 .container{
-    min-height: 95.3vh;
+    min-height: 89vh;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
@@ -84,11 +107,12 @@ h2{
     font-size: 34px;
     text-align: center;
     text-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .content{
     font-size: 20px;
-    padding: 1vw 25px;
+    padding: 3vw 5rem;
     min-width: 200px;
     width: 50vw;
     background-color: #0e0b00dc;
@@ -107,7 +131,7 @@ button:hover{
     background-color: #ffaf38;
 }
 
-button:focus{
+button:active{
     background-color: #ff9900;
 }
 
