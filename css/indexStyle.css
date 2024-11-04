@@ -89,7 +89,7 @@ ul a:hover{
 }
 
 .container{
-    min-height: 89vh;
+    min-height: 88.9vh;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
