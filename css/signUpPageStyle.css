@@ -126,7 +126,7 @@ fieldset{
 
 input{
     height: 28px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 input:invalid{
@@ -149,7 +149,22 @@ input{
     box-sizing: border-box; 
 }
 
-
+button{
+    background-color: #ffbd59; 
+    border-color: #0e0b00;
+    border-width: 5px;
+    font-family: 'Roboto';
+    padding: 10px;
+    font-size: 18px;
+ }
+ 
+ button:hover{
+     background-color: #ffaf38;
+ }
+ 
+ button:active{
+     background-color: #ff9900;
+ }
 
 .rightContent a{
     margin-top: 10px;
