@@ -40,7 +40,6 @@ createAccount.addEventListener("click", () =>{
     let allFieldsFilled = true;
 
     allFormFields.forEach(field => {
-        // Jeśli pole jest puste
         if (field.value.trim() === '') {
             allFieldsFilled = false;
         } 
