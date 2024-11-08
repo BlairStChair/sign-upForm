@@ -129,13 +129,7 @@ input{
     font-size: 18px;
 }
 
-#email:invalid{
-    border-color: #ff0000;
-} 
-#phoneNumber:invalid{
-    border-color: #ff0000;
-} 
-#postalCode:invalid{
+input:invalid{
     border-color: #ff0000;
 }
 

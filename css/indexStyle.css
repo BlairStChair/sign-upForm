@@ -107,12 +107,12 @@ h2{
     font-size: 34px;
     text-align: center;
     text-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .content{
     font-size: 20px;
-    padding: 3vw 5rem;
+    padding: 3vw 6rem;
     min-width: 200px;
     width: 50vw;
     background-color: #0e0b00dc;
